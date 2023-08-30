@@ -1,0 +1,7 @@
+{
+  "totalAmount": "1000",
+  "currency": "PLN",
+  "name": "Sample expense",
+  "note": "This is a test expense",
+  "vendorName": "Test Vendor 1"
+}
