@@ -9,7 +9,8 @@
   "author": "PB",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.0.0"
+    "cypress": "^13.0.0",
+    "prettier": "3.0.3"
   },
   "type": "module",
   "resolveJsonModule": true,

@@ -12,7 +12,7 @@ import {
   uploadFile,
   saveForm,
   openFirstExpense,
-  validateExpenseDetails
+  validateExpenseDetails,
 } from './AddExpenseSpec.utils'
 
 const FILE_NAME = 'samplePdf.pdf'
