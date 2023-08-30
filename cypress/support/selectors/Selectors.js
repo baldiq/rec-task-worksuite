@@ -1,6 +1,9 @@
 // In general I would go for a different classes for each component,
 // but for now let's keep it in one plaace
-class Selectors { 
+class Selectors {
+    dashboard = {
+        vendorName: () => cy.get('.vendor-name')
+    }
 
     paymentsView = {
         newExpenseBtn: () => cy.get('.action-bar a:nth-child(1) span'),
@@ -38,8 +41,6 @@ class Selectors {
         note: () => cy.get('.view-payment-modal__note p'),
         fileName: () => cy.get('.view-payment-modal__file a:not(.ng-hide) p')
     }
-
 }
 
-export default new Selectors()
-
+export default Selectors
